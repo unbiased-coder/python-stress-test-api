@@ -2,8 +2,8 @@ import requests
 import datetime
 import concurrent.futures
 
-HOST = 'https://jsonplaceholder.typicode.com'
-API_PATH = '/todos/'
+HOST = 'http://localhost'
+API_PATH = '/get_users/'
 ENDPOINT = HOST + API_PATH
 MAX_THREADS = 4
 CONCURRENT_THREADS = 3
